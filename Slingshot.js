@@ -18,7 +18,7 @@ class SlingShot{
         this.sling.bodyA = null;
     }
    attach(birdbody){
-       this.sling.body = birdbody
+       this.sling.bodyA= birdbody
    }
     display(){
         image(this.sling1,200,20);
